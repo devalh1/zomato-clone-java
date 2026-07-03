@@ -9,5 +9,10 @@ public class Main {
 		Restaurant restaurant = new Restaurant("Green Things", 4, "Pune");
 		FoodItem foodItem1 = new FoodItem("Panner Butter Masala", 250.0, "Main Course");
 		FoodItem foodItem2 = new FoodItem("Butter Garlic Naan", 70.0, "Roti/Bread");
+		
+		System.out.println(user.getName());
+		System.out.println(restaurant.getName()+"\nAddress : "+restaurant.getAddress()+"\nRating : "+restaurant.getRating());
+		System.out.println("---Menu---\n"+foodItem1.getName()+" "+foodItem1.getCategory()+" "+foodItem1.getPrice());
+		System.out.println(foodItem2.getName()+" "+foodItem2.getCategory()+" "+foodItem2.getPrice());
 	}
 }
